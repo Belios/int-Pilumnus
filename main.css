@@ -65,7 +65,6 @@ h2 {
 }
 
 .aboutme {
-  background-color: #373737;
   height: 979px;
   width:66%;
   margin: 0 18%;
@@ -73,6 +72,7 @@ h2 {
 
 .grid {
   display: flex;
+  background-color: #373737;
   width:100%;
   max-height:900px;
   justify-content: center;
@@ -112,7 +112,7 @@ h2 {
             /* Partie Articles */
 
 #LatestArticles{
-  margin-top:5%;
+  margin-top:15%;
 }
 
 .articleheader {
@@ -511,6 +511,14 @@ textarea {
     align-self: center;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="mobbutton"] {
+  margin-bottom:10rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="grid"] {
