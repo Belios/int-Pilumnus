@@ -8,7 +8,7 @@
 
 body {
   font-family: DroidSerif , sans-serif;
-  background-image: url("img/BG.png");
+  background-image: url("img/BG.webp");
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -55,11 +55,11 @@ h2 {
 
             /* Partie AboutMe */
 
-#titlesection {
+.titlesection {
   color: #ad7835;
 }
 
-#titleunderline {
+.titleunderline {
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -219,7 +219,7 @@ padding-top: 1rem;
 
 /* Colonne Article */
 
-#imgarticle img {
+.imgarticle img {
   box-shadow: -40px -40px #373737;
 }
 
